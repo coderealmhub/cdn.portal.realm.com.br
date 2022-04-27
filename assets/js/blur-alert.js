@@ -1,6 +1,6 @@
 Swal.fire({
     title: 'Oops...',
-    imageUrl: 'assets/images/21192-premium-gold.gif',
+    imageUrl: '../assets/images/21192-premium-gold.gif',
     imageWidth: 400,
     imageHeight: 400,
     imageAlt: 'Custom image',
