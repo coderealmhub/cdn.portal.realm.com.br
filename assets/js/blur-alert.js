@@ -1,5 +1,5 @@
 Swal.fire({
-    title: 'Oops...',
+    title: 'Premium!',
     imageUrl: '../assets/images/21192-premium-gold.gif',
     imageWidth: 400,
     imageHeight: 400,
