@@ -42,7 +42,7 @@ h1 {
   transform: scale(1);
 }
 a.blantershow-chat {
-  background: linear-gradient(to right top, #42CBA5, #00A884);
+  background: linear-gradient(to right top, #FEA500, #FF6600);
   color: #fff;
   position: fixed;
   z-index: 98;
@@ -58,7 +58,7 @@ a.blantershow-chat i {
   margin: 0 10px 0 0;
 }
 .header-chat {
-  background: linear-gradient(to right top, #42CBA5, #00A884);
+  background: linear-gradient(to right top, #FEA500, #FF6600);
   color: #fff;
   padding: 20px;
 }
