@@ -19,12 +19,6 @@
 	}
 }
 
-@include media-breakpoint-up(xl) {
-  .container {
-	max-width: 1170px !important;
-  }
-}
-
 @include media-breakpoint-down(sm) {
 .modal .close{
 	position:absolute;

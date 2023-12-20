@@ -22,32 +22,12 @@
 	border-bottom-left-radius:0px!important;
 	border-bottom-right-radius:0px!important;
 }
-.rounded-left-0{
+.rounded-start-0{
 	border-top-left-radius:0px!important;
 	border-bottom-left-radius:0px!important;
 }
-.rounded-right-0{border-top-right-radius:0px!important;
+.rounded-end-0{border-top-right-radius:0px!important;
 	border-bottom-right-radius:0px!important;
-}
-}
-
-/* Border Size */
-
-.oxyy-login-register {
-.border-1{
-	border-width:1px!important;
-}
-.border-2{
-	border-width:2px!important;
-}
-.border-3{
-	border-width:3px!important;
-}
-.border-4{
-	border-width:4px!important;
-}
-.border-5{
-	border-width:5px!important;
 }
 }
 
@@ -99,49 +79,49 @@
 	font-size: 2.50rem !important;
 }
 .text-11 {
-	@include font-size(2.75rem, true);
+	@include font-size(2.75rem !important);
 }
 .text-12 {
-	@include font-size(3rem, true);
+	@include font-size(3rem !important);
 }
 .text-13 {
-	@include font-size(3.25rem, true);
+	@include font-size(3.25rem !important);
 }
 .text-14 {
-	@include font-size(3.5rem, true);
+	@include font-size(3.5rem !important);
 }
 .text-15 {
-	@include font-size(3.75rem, true);
+	@include font-size(3.75rem !important);
 }
 .text-16 {
-	@include font-size(4rem, true);
+	@include font-size(4rem !important);
 }
 .text-17 {
-	@include font-size(4.5rem, true);
+	@include font-size(4.5rem !important);
 }
 .text-18 {
-	@include font-size(5rem, true);
+	@include font-size(5rem !important);
 }
 .text-19 {
-	@include font-size(5.25rem, true);
+	@include font-size(5.25rem !important);
 }
 .text-20 {
-	@include font-size(5.75rem, true);
+	@include font-size(5.75rem !important);
 }
 .text-21 {
-	@include font-size(6.5rem, true);
+	@include font-size(6.5rem !important);
 }
 .text-22 {
-	@include font-size(7rem, true);
+	@include font-size(7rem !important);
 }
 .text-23 {
-	@include font-size(7.75rem, true);
+	@include font-size(7.75rem !important);
 }
 .text-24 {
-	@include font-size(8.25rem, true);
+	@include font-size(8.25rem !important);
 }
 .text-25 {
-	@include font-size(9rem, true);
+	@include font-size(9rem !important);
 }
 
 .text-11, .text-12, .text-13, .text-14, .text-15, .text-16, .text-17, .text-18, .text-19, .text-20, .text-21, .text-22, .text-23, .text-24, .text-25{
@@ -149,66 +129,34 @@
 }
 }
 
-
-/* Line height */
-
-.oxyy-login-register {
-.line-height-07 {
-	line-height: 0.7 !important;
-}
-
-.line-height-1 {
-	line-height: 1 !important;
-}
-
-.line-height-2 {
-	line-height: 1.2 !important;
-}
-
-.line-height-3 {
-	line-height: 1.4 !important;
-}
-
-.line-height-4 {
-	line-height: 1.6 !important;
-}
-
-.line-height-5 {
-	line-height: 1.8 !important;
-}
-}
-
 /* Font Weight */
 .oxyy-login-register {
-.font-weight-100 {
+.fw-100 {
 	font-weight: 100 !important;
 }
-
-.font-weight-200 {
+.fw-200 {
 	font-weight: 200 !important;
 }
-
-.font-weight-300 {
+.fw-300 {
 	font-weight: 300 !important;
 }
-
-.font-weight-400 {
+.fw-400 {
 	font-weight: 400 !important;
 }
-.font-weight-500 {
+.fw-500 {
 	font-weight: 500 !important;
 }
 
-.font-weight-600 {
+.fw-600 {
 	font-weight: 600 !important;
 }
-.font-weight-700 {
+.fw-700 {
 	font-weight: 700 !important;
 }
-.font-weight-800 {
+.fw-800 {
 	font-weight: 800 !important;
 }
-.font-weight-900 {
+.fw-900 {
 	font-weight: 900 !important;
 }
 }
@@ -303,6 +251,6 @@
 }
 
 hr{
-	border-top:1px solid rgba(16,85,96,.1);
+	opacity:0.2;
 }
 }

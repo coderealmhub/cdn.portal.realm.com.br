@@ -6,7 +6,7 @@
 ==============================*/
 
 $primary-color: 			$red;
-$primary-color-hover: 		darken($primary-color, 7%);
+$primary-color-hover: 		darken($primary-color, 8%);
 
 a, a:focus {
   color: $primary-color;
@@ -43,10 +43,10 @@ a:hover, a:active {
 .bg-primary, .badge-primary {
 	background-color: $primary-color !important;
 }
-.text-primary, .btn-link{
+.text-primary, .link-primary, .btn-link{
 	color: $primary-color !important;
 }
-.btn-link:hover {
+.btn-link:hover, .link-primary:hover {
 	color: $primary-color-hover !important;
 }
 

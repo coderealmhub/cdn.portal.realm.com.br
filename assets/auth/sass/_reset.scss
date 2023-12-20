@@ -101,11 +101,11 @@ img {
 }
 a, a:focus {
   color: $primary-color;
+  text-decoration:none;
   @include transition(all .2s ease);
 }
 a:hover, a:active {
     color: $primary-color-hover;
-    text-decoration: none;
     @include transition(all .2s ease);
 }
 
@@ -131,5 +131,4 @@ iframe {
 
 h1, h2, h3, h4, h5, h6 {
   color: $title-color;
-  font-family: $title-font;
 }

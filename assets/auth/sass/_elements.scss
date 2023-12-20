@@ -166,7 +166,7 @@ background-color: rgba(250,250,250,0.2);
   -webkit-overflow-scrolling: touch;
 }
 
-@include media-breakpoint-down(xs) {
+@include media-breakpoint-down(sm) {
   .nav-tabs .nav-item .nav-link {
 	padding-left: 0px;
 	padding-right: 0px;
